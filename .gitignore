@@ -1,4 +1,5 @@
 .DS_Store
+package.json
 index.zip
 airtable.js
 lab/
