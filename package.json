@@ -1,0 +1,21 @@
+{
+  "name": "doors",
+  "version": "1.0.0",
+  "description": "A guide for Pittsburgh Open Doors Event",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claudia",
+    "alexa",
+    "pittsburgh",
+    "OpenDoors"
+  ],
+  "author": "Pedro J. Salinas <pedrojsalinas@gmail.com> (http://www.pechebot.com)",
+  "license": "MIT"
+}

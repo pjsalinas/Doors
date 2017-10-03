@@ -1,0 +1,254 @@
+{
+  "intents": [
+    {
+      "name": "AboutIntent",
+      "samples": [
+        "about",
+        "tell me about this skill",
+        "What this skill is all about"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "BuildingIntent",
+      "samples": [
+        "tell me about {name}",
+        "what do you know about {name}",
+        "give me some info about {name}"
+      ],
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "LocationIntent",
+      "samples": [
+        "What are the buildings located in {location}",
+        "give me the buildings in {location}",
+        "List the buildings near {location}"
+      ],
+      "slots": [
+        {
+          "name": "location",
+          "type": "LIST_OF_LOCATIONS",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "SaturdayIntent",
+      "samples": [
+        "saturday",
+        "List the buildings for Saturday",
+        "List the Saturday buildings"
+      ],
+      "slots": []
+    },
+    {
+      "name": "SundayIntent",
+      "samples": [
+        "sunday",
+        "List of Sunday buildings",
+        "List of buildings for Sunday"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "LIST_OF_LOCATIONS",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Downtown",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Strip District",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Northside",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "LIST_OF_NAMES",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "707/709 Galleries",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Allegheny County Courthouse",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Allegheny HYP Club",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "August Wilson Center",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "BNY Mellon Center",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "COTERIE Company",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "First Presbyterian Church",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Frick Building",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Koppers Building",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Omni William Penn Hotel",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "The Pennsylvanian",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Union Trust",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "PNC YMCA",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Burns White Center",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Contemporary Craft",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lotenero Art + Design",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Old St. Patrick Church",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Pittsburgh Ballet Theatre",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "St. Stanislaus Kostka",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "The Clemente Museum",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

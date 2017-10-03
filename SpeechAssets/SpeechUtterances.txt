@@ -1,0 +1,14 @@
+AboutIntent tell me about this skill
+AboutIntent What this skill is all about
+BuildingIntent give me some info about {name}
+BuildingIntent what do you know about {name}
+BuildingIntent tell me about {name}
+LocationIntent What are the buildings located in {location}
+LocationIntent give me the buildings in {location}
+LocationIntent List the buildings near {location}
+SaturdayIntent saturday
+SaturdayIntent List the buildings for Saturday
+SaturdayIntent List the Saturday buildings
+SundayIntent sunday
+SundayIntent List the Sunday buildings
+SundayIntent List the buildings for Sunday
