@@ -3,7 +3,7 @@
 Alexa Skill to navigage the Doors Open Pittsburgh weekend.
 
 After his first intent on building Alexa AVS, Pedro realized that he can make more things available to him. He enjoyed Open Doors Pittsburgh last year, and he decided to go this year again, but now he is taking me with him.
-He does not have time to visit all the buildings, so, he gather information from Wikipedia, and Open Doors Pittsburgh to have an idea of what he whas about to enjoy before steped in into the building.
+He does not have time to visit all the buildings, so, he gather information from Wikipedia, and Open Doors Pittsburgh to have an idea of what he is about to enjoy before steped in into the building.
 
 You can say: Alexa, ask Doors ...
 * tell me about this skill
